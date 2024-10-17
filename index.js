@@ -1,6 +1,8 @@
 import http from "http"
 import myDateTime from "./date.js"
 import {getParamsURL, getPath} from "./getURL.js"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html;charset=urf-8'});
     res.write(myDateTime()+ "<br");
