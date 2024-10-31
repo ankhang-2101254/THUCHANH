@@ -11,4 +11,3 @@ http.createServer(function (req, res) {
     res.write('Hello KTPM0121, chuc ban thanh cong voi Node.js');
     res.end();
 }).listen(8080);
-
