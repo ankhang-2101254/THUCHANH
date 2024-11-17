@@ -3,7 +3,7 @@ import dotenv from 'dotenv/config'
 import myDateTime from "./date.js"
 import {getParamsURL, getPath} from "./getURL"
 import viewEngine from './viewEngine.js'
-import initWebroute from './route/webRoute'
+import initWebroute from './webRoute.js'
 
 const app = express()
 viewEngine(app)
