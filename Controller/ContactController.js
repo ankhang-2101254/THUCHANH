@@ -7,4 +7,4 @@ const ContactController = {
 export  {
     
     ContactController
-};
+}

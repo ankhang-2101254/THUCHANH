@@ -47,6 +47,8 @@ app.get('/main', (req, res) => {
     res.render("main")
 })
 
+// app.use('/api', userRoutes);
+
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
