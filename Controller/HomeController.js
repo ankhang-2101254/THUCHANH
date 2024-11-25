@@ -1,10 +1,7 @@
-const HomeController = {
-    index: (req, res) => {
-        res.render('main', { title: 'Home Page' });
-    }
-};
 
-export  {
-    
-    HomeController
+ function index(req,res) {
+    res.render("home",{body:"listUser"})
+}
+export default {
+    index
 };

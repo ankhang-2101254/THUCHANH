@@ -1,10 +1,10 @@
 const AboutController = {
     index: (req, res) => {
-        res.render('about', { title: 'About Page' });
+        res.render('home', { title: 'About Page' });
     }
 };
 
-export  {
+export default {
     
     AboutController
 };
